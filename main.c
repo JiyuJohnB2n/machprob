@@ -1,12 +1,14 @@
 #include "raylib.h"
 #include "menu.h"
+#include "lane.h"
 
-Color CYAN = (Color){0, 255, 255, 255};
 
 int main(void)
 {
-    InitWindow(800, 600, "game");
+    InitWindow(700, 700, "game");
     SetTargetFPS(60);
+
+    lane lanes[LANE_COUNT];
 
     GameScreen currentScreen = MENU;
 
@@ -47,8 +49,9 @@ int main(void)
                 break;
 
             case GAMEPLAY:
-                DrawText("GAMEPLAY SCREEN", 250, 250, 30, WHITE);
-                DrawText("Press ESC to return", 280, 300, 20, LIGHTGRAY);
+                ClearBackground(WHITE);
+                InitLane(lanes);
+                DrawLane(lanes);
                 break;
 
         }

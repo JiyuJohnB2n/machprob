@@ -25,3 +25,24 @@
 
 1795167075 source:c:\users\zarki\onedrive\desktop\machine problem\game.c
 
+1795177202 source:c:\users\zarki\onedrive\desktop\machine problem\machine problem\main.c
+	"raylib.h"
+	"menu.h"
+	"lane.h"
+
+1795167075 c:\users\zarki\onedrive\desktop\machine problem\machine problem\menu.h
+
+1795174779 source:c:\users\zarki\onedrive\desktop\machine problem\machine problem\menu.c
+	"raylib.h"
+	"menu.h"
+
+1795171600 source:c:\users\zarki\onedrive\desktop\machine problem\machine problem\lane.h
+	"raylib.h"
+
+1795177146 source:c:\users\zarki\onedrive\desktop\machine problem\machine problem\lane.c
+	"raylib.h"
+	"lane.h"
+
+1795171600 c:\users\zarki\onedrive\desktop\machine problem\machine problem\lane.h
+	"raylib.h"
+
